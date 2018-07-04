@@ -1,0 +1,80 @@
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro1 {
+    margin-top: 10%;
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.intro2 {
+    margin-top: 2%;
+    text-align: left;
+    font-size: 2.5em;
+    padding-bottom: 2%;
+}
+
+.intro-sub {
+    color: rgb(83, 83, 83);
+    margin-top: 3%;
+    text-align: left;
+    font-size: 1.7em;
+}
+
+.intro-email {
+    color: rgb(64, 168, 233);
+    text-decoration: none;
+}
+
+.intro-email:hover {
+    color: blue;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 50px;
+    border: solid black;
+    background-color: rgb(243, 242, 242);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation: pulse 2s infinite;
+}
+
+.arrow-holder {
+    position: absolute;
+    bottom: 30px;
+    height: 100px;
+    width: 60px;
+}
+
+.arrow-holder:hover .down-arrow {
+    border-color: rgb(64, 168, 233);
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    animation: none;
+}
+
+@keyframes pulse {
+    0% {
+        bottom: 50px;
+    }
+    25% {
+        bottom: 40px;
+    }
+    50% {
+        bottom: 50px;
+    }
+    65% {
+        bottom: 50px
+    }
+    100% {
+        bottom: 50px;
+    }
+}
