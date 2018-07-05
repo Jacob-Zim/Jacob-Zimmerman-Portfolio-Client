@@ -21,7 +21,14 @@ class Header extends Component {
             }>about</li>
             <li className={`projects-link ${this.props.highlightedProjects}`}
               onClick={() => {
-                this.props.changeHighlight('projects');
+                // user is on the about page
+                if (this.props.highlightedAbout === 'highlighted') {
+                  window.scroll({
+                    top: (window.innerHeight*1.1),
+                    left: 0,
+                    behavior: 'smooth'
+                  });
+                }
               }
             }>projects</li>
             <li className="header-email">

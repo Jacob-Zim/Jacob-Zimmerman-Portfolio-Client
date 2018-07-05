@@ -4,6 +4,8 @@ import Header from './header';
 
 import About from './about';
 
+import Projects from './projects';
+
 import '../stylesheets/App.css';
 
 class App extends Component {
@@ -43,8 +45,10 @@ class App extends Component {
          />
         <About 
           changeHighlight={(highlight) => this.changeHighlight(highlight)}
+          highlightedAbout= {this.state.highlightedAbout}
+          highlightedProjects= {this.state.highlightedProjects}
         />
-
+        <Projects />
       </div>
     );
   }
