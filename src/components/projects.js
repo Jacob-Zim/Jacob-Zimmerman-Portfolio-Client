@@ -11,15 +11,24 @@ class Projects extends Component {
         return (
             <div className="projects-container">
                 <h2 className="projects-header">Projects</h2>
-                <div className="project-1">
+                <a href="" onClick={(e) => {
+                    e.preventDefault();
+                    console.log('hoy')
+                }} className="project-1">
                     <div className="project-1-text">Wanderlust<p className="sub-text">travel helper</p></div>
-                </div>
-                <div className="project-2">
+                </a>
+                <a href="" onClick={(e) => {
+                    e.preventDefault();
+                    console.log('hoy')
+                }} className="project-2">
                     <div className="project-2-text">Skatespots<p className="sub-text margin-fix">Skateboarding Spot Finder</p></div>
-                </div>
-                <div className="project-3">
+                </a>
+                <a href="" onClick={(e) => {
+                    e.preventDefault();
+                    console.log('hoy')
+                }} className="project-3">
                     <div className="project-3-text">Staccato<p className="sub-text">Learn Music Theory</p></div>
-                </div>
+                </a>
             </div>
         )
     }

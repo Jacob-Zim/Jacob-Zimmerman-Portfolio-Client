@@ -1,0 +1,53 @@
+.footer-holder {
+    position: absolute;
+    top: 115vh;
+    height: 230%;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer-shift {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+    color: black;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.linkedIn-icon {
+    width: 36px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.footer-email {
+    display: inline-block;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(68, 183, 255);
+}
+
+.footer-email:hover {
+    color: white;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+}

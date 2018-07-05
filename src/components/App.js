@@ -6,7 +6,10 @@ import About from './about';
 
 import Projects from './projects';
 
+import Footer from './footer';
+
 import '../stylesheets/App.css';
+import '../stylesheets/footer.css';
 
 class App extends Component {
   constructor(props) {
@@ -49,6 +52,9 @@ class App extends Component {
           highlightedProjects= {this.state.highlightedProjects}
         />
         <Projects />
+        <div className="footer-holder">
+          <Footer />
+        </div>
       </div>
     );
   }
