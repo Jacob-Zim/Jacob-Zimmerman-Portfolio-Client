@@ -22,7 +22,7 @@ class Project3 extends Component {
         return (
             <div>
                 <div className="proj1-container">
-                    <h2 className="proj1-title">Staccato</h2>
+                    <h2 className="proj1-title">Staccato - page under construction</h2>
                     <p className="techs">MongoDB Express React Node Redux Spaced-Repetition</p>
                     <p className="main-info">Planning a trip can be a headache, there are many different tools out there with complicated user interfaces. They make it hard to simply keep track of destinations you want to go to. <br/><br/>My team and I wanted to simplify this process. We needed a tool to keep track of the information for not just one but a variety of trips, all in one simple ui. Wanderlust is the child of these ideas.</p>
                     <div className="app-links-1">
