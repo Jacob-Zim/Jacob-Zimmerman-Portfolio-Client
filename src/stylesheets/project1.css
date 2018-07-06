@@ -1,0 +1,166 @@
+.proj1-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.proj1-title {
+    margin-top: 5%;
+    font-size: 3em;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.techs {
+    float: right;
+    margin-top: 6.5%;
+    font-size: 1.4em;
+    color: rgb(51, 130, 179);
+}
+
+.main-info {
+    font-size: 1.4em;
+    margin-bottom: 2%;
+    color: rgb(53, 53, 53);
+    line-height: 28px;
+}
+
+.proj1-role {
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.role {
+    font-size: 1.4em;
+    margin-bottom: 5%;
+    color: rgb(53, 53, 53);
+    line-height: 28px;
+}
+
+.proj1-implementation {
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.implementation {
+    font-size: 1.4em;
+    margin-bottom: 4%;
+    color: rgb(53, 53, 53);
+    line-height: 28px;
+}
+
+.proj1-challenges {
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.challenges {
+    font-size: 1.4em;
+    margin-bottom: 5%;
+    color: rgb(53, 53, 53);
+    line-height: 28px;
+}
+
+.proj1-conclusion {
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.conclusion {
+    font-size: 1.4em;
+    margin-bottom: 5%;
+    color: rgb(53, 53, 53);
+    line-height: 28px;
+}
+
+.wanderlust-photo {
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.wanderlust-imp-photo {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.footer-holder-proj1 {
+    width: 100%;
+    position: absolute;
+    height: 24%;
+    z-index: -1;
+}
+
+.app-links-1 {
+    text-align: center;
+}
+
+.live-app {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(51, 130, 179);
+}
+
+.live-app:hover {
+    color: purple;
+}
+
+.github-client {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(51, 130, 179);
+}
+
+.github-client:hover {
+    color: purple;
+}
+
+.github-server {
+    text-decoration: none;
+    color: rgb(51, 130, 179);
+}
+
+.github-server:hover {
+    color: purple;
+}
+
+.links-to-proj {
+    text-align: center;
+}
+
+.links-to-proj > * {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.home-link {
+    color: rgb(51, 130, 179);
+}
+
+.home-link:hover {
+    color:purple;
+}
+
+.skatespot-link {
+    color: rgb(51, 130, 179);
+}
+
+.skatespot-link:hover {
+    color:purple;
+}
+
+.staccato-link {
+    color: rgb(51, 130, 179);
+}
+
+.staccato-link:hover {
+    color:purple;
+}
+
+.wanderlust-link {
+    color: rgb(36, 36, 36);
+}
+
+.wanderlust-link:hover {
+    color: rgb(1, 141, 122);
+}

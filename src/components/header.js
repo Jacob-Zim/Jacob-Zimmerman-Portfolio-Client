@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import {Link} from 'react-router-dom';
+
 import '../stylesheets/header.css';
 
 class Header extends Component {
@@ -9,18 +11,19 @@ class Header extends Component {
 
     render() {
       return (
-        <header className="header-bar">
+        <header id="top" className="header-bar">
           <div className="logo-container">
             <h2 className="logo">Jacob Zimmerman</h2>
           </div>
           <ul className="links">
-            <li className={`about-link ${this.props.highlightedAbout}`}
+            <Link to="/" className={`about-link ${this.props.highlightedAbout}`}
               onClick={() => {
                 this.props.changeHighlight('about');
               }
-            }>about</li>
-            <li className={`projects-link ${this.props.highlightedProjects}`}
-              onClick={() => {
+            }>about</Link>
+            <a href="" className={`projects-link ${this.props.highlightedProjects}`}
+              onClick={(e) => {
+                e.preventDefault();
                 // user is on the about page
                 if (this.props.highlightedAbout === 'highlighted') {
                   window.scroll({
@@ -30,7 +33,7 @@ class Header extends Component {
                   });
                 }
               }
-            }>projects</li>
+            }>projects</a>
             <li className="header-email">
               <a href="mailto: ijacobzim@gmail.com">ijacobzim@gmail.com</a>
             </li>
