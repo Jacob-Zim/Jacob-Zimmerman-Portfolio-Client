@@ -35,8 +35,8 @@ class About extends Component {
                     behavior: 'smooth'
                   });
                   }} >
-              <a className="down-arrow">
-              </a>
+              <p className="down-arrow">
+              </p>
             </a>
           </div>
         </div>
