@@ -29,9 +29,9 @@ class Project1 extends Component {
                     <p className="techs">MongoDB Express React Node Google-APIs react-google-maps</p>
                     <p className="main-info">Planning a trip can be a headache, there are many different tools out there with complicated user interfaces. They make it hard to simply keep track of destinations you want to go to. <br/><br/>My team and I wanted to simplify this process. We needed a tool to keep track of the information for not just one but a variety of trips, all in one simple ui. Wanderlust allows you to create trips and find destinations to add to them!</p>
                     <div className="app-links-1">
-                        <a className="live-app" target="_blank" href="https://wanderlust-travel.netlify.com/">Live App</a>
-                        <a className="github-client" target="_blank" href="https://github.com/Jacob-Zim/Wanderlust-Client">Github Client</a>
-                        <a className="github-server" target="_blank" href="https://github.com/Jacob-Zim/Wanderlust-Backend">Github Server</a>
+                        <a className="live-app" target="_blank" rel="noopener noreferrer" href="https://wanderlust-travel.netlify.com/">Live App</a>
+                        <a className="github-client" target="_blank" rel="noopener noreferrer" href="https://github.com/Jacob-Zim/Wanderlust-Client">Github Client</a>
+                        <a className="github-server" target="_blank" rel="noopener noreferrer" href="https://github.com/Jacob-Zim/Wanderlust-Backend">Github Server</a>
                     </div>
                     <img className="wanderlust-photo" src={wanderlust}/>
                     <h3 className="proj1-role">My Role</h3>

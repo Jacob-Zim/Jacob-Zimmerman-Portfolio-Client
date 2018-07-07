@@ -30,9 +30,9 @@ class Project2 extends Component {
                     <p className="techs">MongoDB Express React Node Google-APIs react-google-maps</p>
                     <p className="main-info">Since I was a kid I've loved skateboarding. Sure it can be dangerous but landing that next trick is one of the greatest feelings. Over the years I've had a few places I'd skate at but it would get repetitive going to the same spots. That's why I decided to create an app which can help me discover new spots! <br/><br/> Skatespots allows users to place their favorite spots on a google map to share. Each spot includes a name, address, description, rating, and image. Users can browse spots or login to create or edit their own. To top it off, I seeded the database to include thousands of spots to get people started!</p>
                     <div className="app-links-1">
-                        <a className="live-app" target="_blank" href="https://skatespots.netlify.com/">Live App</a>
-                        <a className="github-client" target="_blank" href="https://github.com/Jacob-Zim/skatespots-client">Github Client</a>
-                        <a className="github-server" target="_blank" href="https://github.com/Jacob-Zim/skatespots-server">Github Server</a>
+                        <a className="live-app" target="_blank" rel="noopener noreferrer" href="https://skatespots.netlify.com/">Live App</a>
+                        <a className="github-client" target="_blank" rel="noopener noreferrer" href="https://github.com/Jacob-Zim/skatespots-client">Github Client</a>
+                        <a className="github-server" target="_blank" rel="noopener noreferrer" href="https://github.com/Jacob-Zim/skatespots-server">Github Server</a>
                     </div>
                     <img className="wanderlust-photo" src={skatespot1}/>
                     <h3 className="proj1-role">My Role</h3>
