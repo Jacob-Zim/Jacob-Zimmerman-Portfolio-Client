@@ -76,3 +76,33 @@
         margin-left: 5%;
     }
 }
+
+@media only screen and (max-width: 950px) {
+    .footer-holder {
+        height: 220%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-holder {
+        height: 210%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .footer-holder {
+        height: 175%;
+    }
+    .projects-container {
+        height: 150%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .footer-holder {
+        height: 145%;
+    }
+    .projects-container {
+        height: 120%;
+    }
+}
