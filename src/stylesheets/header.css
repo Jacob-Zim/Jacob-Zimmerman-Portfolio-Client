@@ -85,3 +85,32 @@
     transition: .4s ease;
     -webkit-transition: .4s ease;
 }
+
+@media only screen and (max-width: 900px) {
+    .projects-link{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .header-email > a {
+        display: none;
+    }
+    .projects-link {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .projects-link {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .about-link {
+        position: absolute;
+        right: -20px;
+    }
+}

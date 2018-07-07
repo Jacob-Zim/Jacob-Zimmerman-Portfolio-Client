@@ -164,3 +164,23 @@
 .wanderlust-link:hover {
     color: rgb(1, 141, 122);
 }
+
+@media only screen and (max-width: 1200px) {
+    .techs {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wanderlust-link-1 {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .wanderlust-link {
+        display: block;
+        margin-top: 5px;
+    }
+}
