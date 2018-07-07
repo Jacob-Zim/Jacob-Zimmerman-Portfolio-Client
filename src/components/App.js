@@ -31,7 +31,6 @@ class App extends Component {
     }
 
     if (highlight === 'projects') {
-      console.log('here');
       this.setState({
         highlightedAbout: "",
         highlightedProjects: "highlighted"
