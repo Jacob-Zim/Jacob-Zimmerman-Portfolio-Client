@@ -17,6 +17,7 @@ class Projects extends Component {
                   className="project-1">
                     <div className="project-1-text">Wanderlust<p className="sub-text">travel helper</p></div>
                   </Link>
+                  <p>I'm working on making this responsive and the others of similar style...</p>
                   <Link to="/skatespots"
                    className="project-2">
                    <p className="landing-header">Skatespots</p>
