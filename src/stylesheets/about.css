@@ -61,6 +61,12 @@
     animation: none;
 }
 
+.about-me-text {
+    color: rgb(46, 46, 46);
+    font-size: 1.6em;
+    line-height: 36px;
+}
+
 @keyframes pulse {
     0% {
         bottom: 50px;

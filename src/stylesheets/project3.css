@@ -5,3 +5,25 @@
 .staccato-link-1:hover {
     color: rgb(1, 141, 122);
 }
+
+.dev-techs-3 {
+    display: inline;
+}
+
+@media only screen and (max-width: 678px) {
+    .dev-techs-3 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+    .dev-techs-3 {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 363px) {
+    .dev-techs-3 {
+        display: block;
+    }
+}

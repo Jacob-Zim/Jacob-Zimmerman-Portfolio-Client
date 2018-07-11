@@ -26,7 +26,7 @@ class Project3 extends Component {
             <div>
                 <div className="proj1-container">
                     <h2 className="proj1-title">Staccato</h2>
-                    <p className="techs">MongoDB Express React Node Redux Spaced-Repetition</p>
+                    <div className="techs">MongoDB | Express | React | Node | Redux |<div className="dev-techs-3"> Spaced-Repetition</div></div>
                     <p className="main-info">Learning music theory is hard, especially when you're first starting out trying to memorize the basics. My partner and I came up with Staccato, an application which tests the user on questions using a spaced repetition algorithm to determine frequency of certain questions.<br/><br/> Spaced Repetition is scientifically proven to be one of the best ways to memorize information so we figured this would be great for our app!</p>
                     <div className="app-links-1">
                         <a className="live-app" target="_blank" rel="noopener noreferrer" href="https://staccato-learn-music.netlify.com/">Live App</a>

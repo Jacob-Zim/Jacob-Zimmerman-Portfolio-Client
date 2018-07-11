@@ -8,12 +8,15 @@
     font-size: 3em;
     margin-bottom: 2%;
     display: inline-block;
+    border-bottom: solid 1px rgb(66, 66, 66);
+    padding-bottom: 1%;
+    width: 100%;
 }
 
 .techs {
-    float: right;
-    margin-top: 6.5%;
-    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-size: 1.2em;
     color: rgb(51, 130, 179);
 }
 
@@ -165,11 +168,48 @@
     color: rgb(1, 141, 122);
 }
 
+.small-dev-tech {
+    display: inline;
+}
+
 @media only screen and (max-width: 1200px) {
+    .proj1-title {
+        margin-bottom: 2%;
+    }
+
     .techs {
         float: none;
         margin-top: 0;
-        margin-bottom: 3%;
+        margin-bottom: 4%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .techs {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 4.5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .techs {
+        float: none;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    .small-dev-tech {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .small-dev-tech {
+        display: inline;
     }
 }
 
@@ -182,5 +222,11 @@
     .wanderlust-link {
         display: block;
         margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .small-dev-tech {
+        display: block;
     }
 }

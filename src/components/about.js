@@ -23,7 +23,7 @@ class About extends Component {
         <div className="about">
           <div className="landing">
             <p className="intro1">Hey there! I'm a software developer living in Seattle, Washington.</p>
-            <p className="intro2">I can help you build your project!</p>
+            <p className="intro2">Let's work on your product together!</p>
             <p className="intro-sub">I create full-stack applications from the ground up.</p>
             <p className="intro-sub">Have a project in mind?</p>
             <p className="intro-sub">Drop me a line <a className="intro-email" href="mailto: ijacobzim@gmail.com">ijacobzim@gmail.com</a></p>

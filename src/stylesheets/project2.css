@@ -13,3 +13,25 @@
 .skatespot-link-1:hover {
     color: rgb(1, 141, 122);
 }
+
+.dev-techs-2 {
+    display: inline;
+}
+
+@media only screen and (max-width: 747px) {
+    .dev-techs-2 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .dev-techs-2 {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .dev-techs-2 {
+        display: block;
+    }
+}

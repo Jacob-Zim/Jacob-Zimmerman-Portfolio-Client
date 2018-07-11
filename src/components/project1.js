@@ -26,7 +26,7 @@ class Project1 extends Component {
             <div>
                 <div className="proj1-container">
                     <h2 className="proj1-title">Wanderlust</h2>
-                    <p className="techs">MongoDB Express React Node Google-APIs react-google-maps</p>
+                    <div className="techs">MongoDB | Express | React | Node | Google-APIs |<div className="small-dev-tech"> react-google-maps</div></div>
                     <p className="main-info">Planning a trip can be a headache, there are many different tools out there with complicated user interfaces. They make it hard to simply keep track of destinations you want to go to. <br/><br/>My team and I wanted to simplify this process. We needed a tool to keep track of the information for not just one but a variety of trips, all in one simple ui. Wanderlust allows you to create trips and find destinations to add to them!</p>
                     <div className="app-links-1">
                         <a className="live-app" target="_blank" rel="noopener noreferrer" href="https://wanderlust-travel.netlify.com/">Live App</a>
