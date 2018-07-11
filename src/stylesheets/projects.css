@@ -130,6 +130,42 @@
     background-size: 100%;
 }
 
+.wanderlust-bkg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background: url('../images/wanderlustFrontpage.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wanderlust-header {
+    display: inline-block;
+    position: absolute;
+    font-size: 1em;
+    color: lightskyblue;
+    margin-top: 80px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+}
+
+.wanderlust-subHeader {
+    position: absolute;
+    margin: 0;
+    margin-top: 210px;
+    font-size: .8em;
+    color: whitesmoke;
+    text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 .skatespot-container {
     display: block;
     padding-top: 40%;

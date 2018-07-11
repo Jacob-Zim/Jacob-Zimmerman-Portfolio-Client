@@ -15,7 +15,12 @@ class Projects extends Component {
                 <h2 className="projects-header">Projects</h2>
                   <Link to="/wanderlust"
                   className="project-1">
-                    <div className="project-1-text">Wanderlust<p className="sub-text">travel helper</p></div>
+                    <p className="wanderlust-header">Wanderlust</p>
+                   <p className="wanderlust-subHeader">Plan your next trip</p>
+                   <div className="wanderlust-bkg" role="img" aria-label="warm beach">
+                    <div className="skatespot-container">
+                    </div>
+                   </div>
                   </Link>
                   <Link to="/skatespots"
                    className="project-2">
