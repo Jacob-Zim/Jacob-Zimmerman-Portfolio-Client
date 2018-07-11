@@ -25,7 +25,7 @@ class Projects extends Component {
                   <Link to="/skatespots"
                    className="project-2">
                    <p className="skatespot-header">Skatespots</p>
-                   <p className="skatespot-subHeader">Find your new favorite place to skate</p>
+                   <p className="skatespot-subHeader">Find great places to skate</p>
                    <div className="skatespot-bkg" role="img" aria-label="skateboarder">
                     <div className="skatespot-container">
                     </div>
