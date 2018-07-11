@@ -17,13 +17,12 @@ class Projects extends Component {
                   className="project-1">
                     <div className="project-1-text">Wanderlust<p className="sub-text">travel helper</p></div>
                   </Link>
-                  <p>I'm working on making this responsive and the others of similar style...</p>
                   <Link to="/skatespots"
                    className="project-2">
-                   <p className="landing-header">Skatespots</p>
-                   <p className="landing-subHeader">Find your new favorite place to skate</p>
-                   <div className="landing-bkg" role="img" aria-label="skateboarder">
-                    <div className="landing-container">
+                   <p className="skatespot-header">Skatespots</p>
+                   <p className="skatespot-subHeader">Find your new favorite place to skate</p>
+                   <div className="skatespot-bkg" role="img" aria-label="skateboarder">
+                    <div className="skatespot-container">
                     </div>
                    </div>
                     {/* <div className="project-2-text">Skatespots<p className="sub-text margin-fix">Skateboarding Spot Finder</p></div> */}
