@@ -19,7 +19,13 @@ class Projects extends Component {
                   </Link>
                   <Link to="/skatespots"
                    className="project-2">
-                    <div className="project-2-text">Skatespots<p className="sub-text margin-fix">Skateboarding Spot Finder</p></div>
+                   <p className="landing-header">Skatespots</p>
+                   <p className="landing-subHeader">Find your new favorite place to skate</p>
+                   <div className="landing-bkg" role="img" aria-label="skateboarder">
+                    <div className="landing-container">
+                    </div>
+                   </div>
+                    {/* <div className="project-2-text">Skatespots<p className="sub-text margin-fix">Skateboarding Spot Finder</p></div> */}
                   </Link>
                   <Link to="/staccato"
                    className="project-3">
