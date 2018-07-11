@@ -197,7 +197,7 @@
     position: absolute;
     font-size: 1em;
     color: rgb(180, 100, 180);
-    margin-top: 80px;
+    margin-top: 120px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -207,7 +207,7 @@
 .staccato-subHeader {
     position: absolute;
     margin: 0;
-    margin-top: 210px;
+    margin-top: 240px;
     font-size: .7em;
     color: whitesmoke;
     text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
@@ -223,7 +223,7 @@
     position: absolute;
     font-size: 1em;
     color: lightskyblue;
-    margin-top: 80px;
+    margin-top: 120px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -233,7 +233,7 @@
 .wanderlust-subHeader {
     position: absolute;
     margin: 0;
-    margin-top: 210px;
+    margin-top: 240px;
     font-size: .7em;
     color: whitesmoke;
     text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
@@ -255,7 +255,7 @@
     position: absolute;
     font-size: 1em;
     color: gold;
-    margin-top: 50px;
+    margin-top: 120px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -265,7 +265,7 @@
 .skatespot-subHeader {
     position: absolute;
     margin: 0;
-    margin-top: 190px;
+    margin-top: 240px;
     font-size: .7em;
     color: #00a2ff;
     text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
@@ -274,6 +274,14 @@
     text-align: center;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 1300px) {
+    .skatespot-container {
+        display: block;
+        padding-top: 50%;
+        height: 0;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -287,6 +295,15 @@
 
     .project-3 {
         font-size: 5em;
+    }
+    .wanderlust-subHeader {
+        margin-top: 210px;
+    }
+    .skatespot-subHeader {
+        margin-top: 210px;
+    }
+    .staccato-subHeader {
+        margin-top: 210px;
     }
 }
 
@@ -302,6 +319,41 @@
     .project-3 {
         font-size: 4em;
     }
+    .wanderlust-subHeader {
+        margin-top: 190px;
+    }
+    .skatespot-subHeader {
+        margin-top: 190px;
+    }
+    .staccato-subHeader {
+        margin-top: 190px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .wanderlust-bkg {
+        background: url('../images/wanderlustFrontpageMed.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .skatespot-bkg {
+        background: url('../images/skatespotsFrontpageMed.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .staccato-bkg {
+        background: url('../images/staccatoFrontpageMed.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .skatespot-container {
+        display: block;
+        padding-top: 60%;
+        height: 0;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -316,6 +368,38 @@
     .project-3 {
         font-size: 3.5em;
     }
+    .wanderlust-bkg {
+        background: url('../images/wanderlustFrontpageSm.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .skatespot-bkg {
+        background: url('../images/skatespotsFrontpageSm.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .staccato-bkg {
+        background: url('../images/staccatoFrontpageSm.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wanderlust-subHeader {
+        margin-top: 180px;
+    }
+    .skatespot-subHeader {
+        margin-top: 180px;
+    }
+    .staccato-subHeader {
+        margin-top: 180px;
+    }
+    .skatespot-container {
+        display: block;
+        padding-top: 70%;
+        height: 0;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -329,6 +413,11 @@
 
     .project-3 {
         font-size: 3em;
+    }
+    .skatespot-container {
+        display: block;
+        padding-top: 80%;
+        height: 0;
     }
 }
 
@@ -356,6 +445,11 @@
     .project-3:hover .project-3-text {
         font-size: 1.3em;
     }
+    .skatespot-container {
+        display: block;
+        padding-top: 83%;
+        height: 0;
+    }
 }
 
 @media only screen and (max-width: 410px) {
@@ -382,6 +476,31 @@
     .project-3:hover .project-3-text {
         font-size: 1.3em;
     }
+
+    .wanderlust-header {
+        margin-top: 80px;
+    }
+    .skatespot-header {
+        margin-top: 80px;
+    }
+    .staccato-header {
+        margin-top: 80px;
+    }
+
+    .wanderlust-subHeader {
+        margin-top: 130px;
+    }
+    .skatespot-subHeader {
+        margin-top: 130px;
+    }
+    .staccato-subHeader {
+        margin-top: 130px;
+    }
+    .skatespot-container {
+        display: block;
+        padding-top: 85%;
+        height: 0;
+    }
 }
 
 @media only screen and (max-width: 350px) {
@@ -407,5 +526,10 @@
 
     .project-3:hover .project-3-text {
         font-size: 1.3em;
+    }
+    .skatespot-container {
+        display: block;
+        padding-top: 90%;
+        height: 0;
     }
 }
