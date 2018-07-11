@@ -43,11 +43,34 @@
     -webkit-transition: .4s ease;
 }
 
-.project-1:hover .project-1-text {
-    background-color: lightseagreen;
-    font-size: 1.5em;
+.project-1:hover .wanderlust-header {
+    font-size: 1.1em;
     transition: .4s ease;
     -webkit-transition: .4s ease;
+}
+
+.project-1:hover .wanderlust-subHeader {
+    font-size: .8em;
+}
+
+.project-2:hover .skatespot-header {
+    font-size: 1.1em;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+}
+
+.project-2:hover .skatespot-subHeader {
+    font-size: .8em;
+}
+
+.project-3:hover .staccato-header {
+    font-size: 1.1em;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+}
+
+.project-3:hover .staccato-subHeader {
+    font-size: .8em;
 }
 
 .project-2 {
@@ -133,6 +156,8 @@
 
 .project-2 > p {
     z-index: 20;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
 }
 
 .wanderlust-bkg {
@@ -148,6 +173,13 @@
 
 .project-1 > p {
     z-index: 20;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+}
+
+.project-3 > p {
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
 }
 
 .staccato-bkg {
@@ -176,7 +208,7 @@
     position: absolute;
     margin: 0;
     margin-top: 210px;
-    font-size: .8em;
+    font-size: .7em;
     color: whitesmoke;
     text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
     left: 50%;
@@ -202,7 +234,7 @@
     position: absolute;
     margin: 0;
     margin-top: 210px;
-    font-size: .8em;
+    font-size: .7em;
     color: whitesmoke;
     text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
     left: 50%;
@@ -234,7 +266,7 @@
     position: absolute;
     margin: 0;
     margin-top: 190px;
-    font-size: .8em;
+    font-size: .7em;
     color: #00a2ff;
     text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
     left: 50%;
