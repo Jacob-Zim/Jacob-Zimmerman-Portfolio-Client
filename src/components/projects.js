@@ -43,7 +43,7 @@ class Projects extends Component {
                    </div>
                   </Link>
                   <h2 className="about-header">About Me</h2>
-                  <p className="intro-sub about-me-text">I'm passionate about the capabilities of software, and wish to develop products which really make a difference in the world. The projects I've created are centered around my other interests such as playing guitar, skateboarding, and traveling. I love my hobbies and want to do all that I can to improve them!<br/><br/> What I really want is to produce life changing software. I really enjoy working with others, there is no way I can achieve my goal alone, and hearing others' perspectives is a breath of fresh air for me. I think I bring a unique view to software and am eager to learn as much as I possibly can!</p>
+                  <p className="intro-sub about-me-text"> I want to produce life changing software. I'm passionate about the capabilities it has, and wish to develop products that make a difference in the world.<br /> <br /> The projects I've worked on are centered around some of my favorite hobbies such as playing guitar, skateboarding, and traveling. I love my hobbies and want to do all that I can to improve them!<br/><br/> I've worked on projects individually and as part of a team. I enjoy working with others as hearing their perspectives is a breath of fresh air. I bring a unique view to software and I'm eager to learn as much as I possibly can!</p>
             </div>
         )
     }
