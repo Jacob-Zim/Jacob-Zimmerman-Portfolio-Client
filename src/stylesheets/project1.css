@@ -81,6 +81,20 @@
     margin-bottom: 5%;
 }
 
+.wanderlust-photo-md {
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 5%;
+    display: none;
+}
+
+.wanderlust-photo-sm {
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 5%;
+    display: none;
+}
+
 .wanderlust-imp-photo {
     width: 100%;
     margin-bottom: 5%;
@@ -199,6 +213,15 @@
         margin-bottom: 5%;
         line-height: 25px;
     }
+    .wanderlust-photo {
+        display: none;
+    }
+    .wanderlust-imp-photo {
+        display: none;
+    }
+    .wanderlust-photo-md {
+        display: inline-block;
+    }
 }
 
 @media only screen and (max-width: 747px) {
@@ -210,6 +233,12 @@
 @media only screen and (max-width: 540px) {
     .small-dev-tech {
         display: inline;
+    }
+    .wanderlust-photo-md {
+        display: none;
+    }
+    .wanderlust-photo-sm {
+        display: inline-block;
     }
 }
 

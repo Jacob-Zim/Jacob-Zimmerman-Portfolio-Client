@@ -40,11 +40,15 @@ class Project1 extends Component {
                         <a className="github-server" target="_blank" rel="noopener noreferrer" href="https://github.com/Jacob-Zim/Wanderlust-Backend">Github Server</a>
                     </div>
                     <img className="wanderlust-photo" src={pic1lg}/>
+                    <img className="wanderlust-photo-md" src={pic1md}/>
+                    <img className="wanderlust-photo-sm" src={pic1sm}/>
                     <h3 className="proj1-role">My Role</h3>
                     <p className="role">I worked with three other developers on this project, all filling different roles and contributing to the repo. I was the project lead, providing the user stories and driving the overall functionality of the app. I would present my ideas to the team, listen to feedback, and integrated the good ideas into the app. <br/><br/>Most of my time coding was spent on the frontend, specifically on the list and trip components along with a large portion of the api calls and actions.</p>
                     <h3 className="proj1-implementation">Implementation</h3>
                     <p className="implementation">We wanted the user to be able to see geographically where their destinations were. We decided on using google maps, specifically a react library 'react-google-maps'. Along with the map, we needed to get information for these places so we used the google places api. <br/><br/> To store the information we created a server which used user authentication and connected to a database. The overall minimal viable product was met and allowed users to create and delete trips, add searched places to said trips, and even included the ability to leave notes on specific places.</p>
                     <img className="wanderlust-imp-photo" src={pic2lg} />
+                    <img className="wanderlust-photo-md" src={pic2md}/>
+                    <img className="wanderlust-photo-sm" src={pic2sm}/>
                     <h3 className="proj1-challenges">Challenges</h3>
                     <p className="challenges">There were a few roadbumps along the way, but nothing we couldn't get past. The biggest was with accessing the google places api. We ran across an issue with cross origin resource sharing, as the api was being fetched from the frontend which wasn't authorized on googles end. <br/><br/> We came up with a quick solution which used a library called CORS anywhere which proxied our calls to a server with cors enabled. All we had to do was host CORS anywhere on heroku and use the url in front of our fetch calls! Besides that, the project ran quite smoothly.</p>
                     <h3 className="proj1-conclusion">Conclusion</h3>
