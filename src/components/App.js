@@ -76,6 +76,7 @@ class App extends Component {
             changeHighlight={(highlight) => this.changeHighlight(highlight)}
             highlightedAbout= {this.state.highlightedAbout}
             highlightedProjects= {this.state.highlightedProjects}
+            highlightedName= {this.state.highlightedName}
           />
         </Switch>
       </div>

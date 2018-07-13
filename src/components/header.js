@@ -36,13 +36,14 @@ class Header extends Component {
               onClick={(e) => {
                 e.preventDefault();
                 // user is on the about page
-                if (this.props.highlightedAbout === 'highlighted') {
+                if (this.props.highlightedAbout === 'highlighted' || this.props.highlightedName === 'highlighted') {
                   window.scroll({
                     top: (window.innerHeight*1.1),
                     left: 0,
                     behavior: 'smooth'
                   });
                 }
+                this.props.changeHighlight('projects');
               }
             }>projects</a>
             <li className="header-email">
