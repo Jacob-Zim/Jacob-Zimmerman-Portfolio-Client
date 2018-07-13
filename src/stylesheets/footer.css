@@ -54,25 +54,25 @@
 
 @media only screen and (max-width: 1300px) {
     .footer-holder {
-        height: 345%;
+        height: 350%;
     }
 }
 
 @media only screen and (max-width: 1250px) {
     .footer-holder {
-        height: 330%;
+        height: 340%;
     }
 }
 
 @media only screen and (max-width: 1150px) {
     .footer-holder {
-        height: 310%;
+        height: 330%;
     }
 }
 
 @media only screen and (max-width: 1050px) {
     .footer-holder {
-        height: 295%;
+        height: 310%;
     }
 }
 
@@ -83,7 +83,7 @@
         width: 50%;
     }
     .footer-holder {
-        height: 305%;
+        height: 330%;
     }
 }
 
@@ -117,19 +117,19 @@
         height: 150%;
     }
     .footer-holder {
-        height: 280%;
+        height: 330%;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .footer-holder {
-        height: 330%;
+        height: 350%;
     }
 }
 
 @media only screen and (max-width: 410px) {
     .footer-holder {
-        height: 310%;
+        height: 330%;
     }
     .projects-container {
         height: 120%;
@@ -138,7 +138,7 @@
 
 @media only screen and (max-width: 375px) {
     .footer-holder {
-        height: 310%;
+        height: 330%;
     }
     .projects-container {
         height: 120%;
