@@ -127,6 +127,10 @@
         line-height: 40px;
     }
 
+    .arrow-holder {
+        bottom: -50px
+    }
+
     .intro-sub {
         line-height: 30px;
     }
