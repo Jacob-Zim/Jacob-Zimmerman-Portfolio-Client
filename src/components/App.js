@@ -16,8 +16,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      highlightedAbout: "highlighted",
-      highlightedProjects: ""
+      highlightedAbout: "",
+      highlightedProjects: "",
+      highlightedName: "highlighted"
     }
   }
 
@@ -26,14 +27,24 @@ class App extends Component {
     if (highlight === 'about') {
       this.setState({
         highlightedAbout: "highlighted",
-        highlightedProjects: ""
+        highlightedProjects: "",
+        highlightedName: ""
       })
     }
 
     if (highlight === 'projects') {
       this.setState({
         highlightedAbout: "",
-        highlightedProjects: "highlighted"
+        highlightedProjects: "highlighted",
+        highlightedName: ""
+      })
+    }
+
+    if (highlight === 'logo') {
+      this.setState({
+        highlightedAbout: "",
+        highlightedProjects: "",
+        highlightedName: "highlighted"
       })
     }
   }
@@ -45,6 +56,7 @@ class App extends Component {
           changeHighlight={(highlight) => this.changeHighlight(highlight)}
           highlightedAbout= {this.state.highlightedAbout}
           highlightedProjects= {this.state.highlightedProjects}
+          highlightedName= {this.state.highlightedName}
          />
         <Switch>
           <Route exact path="/wanderlust" render={(props) => {

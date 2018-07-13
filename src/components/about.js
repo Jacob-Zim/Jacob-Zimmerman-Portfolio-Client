@@ -42,7 +42,7 @@ class About extends Component {
         </div>
         <Projects />
         <div className="footer-holder">
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     );

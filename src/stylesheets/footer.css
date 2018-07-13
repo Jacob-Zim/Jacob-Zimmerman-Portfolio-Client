@@ -1,7 +1,7 @@
 .footer-holder {
     position: absolute;
-    top: 115vh;
-    height: 340%;
+    top: 100%;
+    height: 310%;
     width: 100%;
     z-index: -1;
 }
@@ -52,11 +52,38 @@
     -webkit-transition: .4s ease;
 }
 
+@media only screen and (max-width: 1300px) {
+    .footer-holder {
+        height: 345%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .footer-holder {
+        height: 330%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .footer-holder {
+        height: 310%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .footer-holder {
+        height: 295%;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     .footer-content {
         text-align: left;
         margin-left: 25%;
         width: 50%;
+    }
+    .footer-holder {
+        height: 305%;
     }
 }
 
@@ -79,28 +106,39 @@
 
 @media only screen and (max-width: 950px) {
     .footer-holder {
-        height: 220%;
     }
 }
 
 @media only screen and (max-width: 700px) {
-    .footer-holder {
-        height: 210%;
-    }
 }
 
 @media only screen and (max-width: 475px) {
-    .footer-holder {
-        height: 175%;
-    }
     .projects-container {
         height: 150%;
+    }
+    .footer-holder {
+        height: 280%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-holder {
+        height: 330%;
     }
 }
 
 @media only screen and (max-width: 410px) {
     .footer-holder {
-        height: 145%;
+        height: 310%;
+    }
+    .projects-container {
+        height: 120%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer-holder {
+        height: 310%;
     }
     .projects-container {
         height: 120%;

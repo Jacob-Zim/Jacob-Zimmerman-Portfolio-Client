@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import {Link} from 'react-router-dom';
 
+import { HashLink } from 'react-router-hash-link';
+
 import '../stylesheets/header.css';
 
 class Header extends Component {
@@ -13,14 +15,23 @@ class Header extends Component {
       return (
         <header id="top" className="header-bar">
           <div className="logo-container">
-            <h2 className="logo">Jacob Zimmerman</h2>
+            <Link to="/" className={`logo ${this.props.highlightedName}`} onClick={() => {
+              if (this.props.highlightedName === "highlighted") {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: 'smooth'
+                });
+              }
+              this.props.changeHighlight('logo');
+            }}>Jacob Zimmerman</Link>
           </div>
           <ul className="links">
-            <Link to="/" className={`about-link ${this.props.highlightedAbout}`}
-              onClick={() => {
-                this.props.changeHighlight('about');
-              }
-            }>about</Link>
+              <HashLink smooth to="/#about" className={`about-link ${this.props.highlightedAbout}`}
+                onClick={() => {
+                  this.props.changeHighlight('about');
+                }
+              }>about</HashLink>
             <a href="" className={`projects-link ${this.props.highlightedProjects}`}
               onClick={(e) => {
                 e.preventDefault();

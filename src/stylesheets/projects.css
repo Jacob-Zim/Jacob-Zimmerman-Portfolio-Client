@@ -354,6 +354,9 @@
         padding-top: 60%;
         height: 0;
     }
+    .about-header {
+        margin-bottom: 8%;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -418,6 +421,9 @@
         display: block;
         padding-top: 80%;
         height: 0;
+    }
+    .about-header {
+        margin-bottom: 11%;
     }
 }
 
