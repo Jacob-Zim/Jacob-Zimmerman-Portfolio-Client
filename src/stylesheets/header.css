@@ -38,6 +38,8 @@
 .about-link {
     text-decoration: none;
     color: white;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
 }
 
 .about-link:hover {

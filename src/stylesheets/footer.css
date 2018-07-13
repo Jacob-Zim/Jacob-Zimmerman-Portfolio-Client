@@ -44,6 +44,8 @@
     font-size: 18px;
     text-decoration: none;
     color: rgb(68, 183, 255);
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
 }
 
 .footer-email:hover {
