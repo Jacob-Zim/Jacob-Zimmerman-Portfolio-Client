@@ -128,18 +128,12 @@
 }
 
 @media only screen and (max-width: 410px) {
-    .footer-holder {
-        height: 330%;
-    }
     .projects-container {
         height: 120%;
     }
 }
 
 @media only screen and (max-width: 375px) {
-    .footer-holder {
-        height: 330%;
-    }
     .projects-container {
         height: 120%;
     }
