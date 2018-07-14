@@ -32,20 +32,11 @@ class Header extends Component {
                   this.props.changeHighlight('about');
                 }
               }>about</HashLink>
-            <a href="" className={`projects-link ${this.props.highlightedProjects}`}
-              onClick={(e) => {
-                e.preventDefault();
-                // user is on the about page
-                if (this.props.highlightedAbout === 'highlighted' || this.props.highlightedName === 'highlighted') {
-                  window.scroll({
-                    top: (window.innerHeight*1.1),
-                    left: 0,
-                    behavior: 'smooth'
-                  });
-                }
+            <HashLink smooth to="/#projects" className={`projects-link ${this.props.highlightedProjects}`}
+              onClick={() => {
                 this.props.changeHighlight('projects');
               }
-            }>projects</a>
+            }>projects</HashLink>
             <li className="header-email">
               <a href="mailto: ijacobzim@gmail.com">ijacobzim@gmail.com</a>
             </li>

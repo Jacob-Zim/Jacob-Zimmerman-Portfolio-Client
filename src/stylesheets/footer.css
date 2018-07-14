@@ -1,15 +1,7 @@
-.footer-holder {
-    position: absolute;
-    top: 100%;
-    height: 360%;
-    width: 100%;
-    z-index: -1;
-}
-
 .footer-shift {
     position: absolute;
     display: inline-block;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     height: 60px;
     background-color: rgb(29, 29, 29);
@@ -54,38 +46,11 @@
     -webkit-transition: .4s ease;
 }
 
-@media only screen and (max-width: 1300px) {
-    .footer-holder {
-        height: 350%;
-    }
-}
-
-@media only screen and (max-width: 1250px) {
-    .footer-holder {
-        height: 340%;
-    }
-}
-
-@media only screen and (max-width: 1150px) {
-    .footer-holder {
-        height: 330%;
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    .footer-holder {
-        height: 310%;
-    }
-}
-
 @media only screen and (max-width: 750px) {
     .footer-content {
         text-align: left;
         margin-left: 25%;
         width: 50%;
-    }
-    .footer-holder {
-        height: 330%;
     }
 }
 
@@ -103,40 +68,5 @@
 @media only screen and (max-width: 400px) {
     .footer-content {
         margin-left: 5%;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    .footer-holder {
-    }
-}
-
-@media only screen and (max-width: 700px) {
-}
-
-@media only screen and (max-width: 475px) {
-    .projects-container {
-        height: 150%;
-    }
-    .footer-holder {
-        height: 330%;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .footer-holder {
-        height: 350%;
-    }
-}
-
-@media only screen and (max-width: 410px) {
-    .projects-container {
-        height: 120%;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .projects-container {
-        height: 120%;
     }
 }

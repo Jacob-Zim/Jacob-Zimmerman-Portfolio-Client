@@ -19,7 +19,7 @@ class About extends Component {
       this.props.changeHighlight('about');
     }
     return (
-      <div>
+      <div className="main-landing-container">
         <div className="about">
           <div className="landing">
             <p className="intro1">Hey there! I'm a software developer living in Seattle, Washington.</p>
@@ -30,7 +30,7 @@ class About extends Component {
             <a className="arrow-holder" href="" onClick={(e) => {
                 e.preventDefault();
                   window.scroll({
-                    top: (window.innerHeight*1.1),
+                    top: (window.innerHeight*1.2),
                     left: 0,
                     behavior: 'smooth'
                   });

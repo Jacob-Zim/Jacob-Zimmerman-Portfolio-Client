@@ -15,7 +15,7 @@ class Projects extends Component {
                 <h2 className="projects-header">Projects</h2>
                   <Link to="/wanderlust"
                   className="project-1">
-                    <p className="wanderlust-header">Wanderlust</p>
+                    <p id="projects" className="wanderlust-header">Wanderlust</p>
                    <p className="wanderlust-subHeader">Plan your next trip</p>
                    <div className="wanderlust-bkg" role="img" aria-label="warm beach">
                     <div className="skatespot-container">
