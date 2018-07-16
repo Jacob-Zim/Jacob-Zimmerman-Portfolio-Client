@@ -51,7 +51,8 @@ class Projects extends Component {
                     </div>
                    </div>
                   </Link>
-                  <h2 id="about" className="about-header">About Me</h2>
+                  <a id="about"></a>
+                  <h2 className="about-header">About Me</h2>
                     <p className="intro-sub about-me-text">I want to produce life changing software. I'm passionate about the capabilities it has, and wish to develop products that make a difference in the world. <br /> <br /> The projects I've worked on are centered around some of my favorite hobbies such as playing guitar, skateboarding, and traveling. I love my hobbies and want to do all that I can to improve them!<br/><br/> I've worked on projects individually and as part of a team. I enjoy working with others as hearing their perspectives is a breath of fresh air. I bring a unique view to software and I'm eager to learn as much as I possibly can!</p>
             </div>
         )
