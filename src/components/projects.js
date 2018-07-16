@@ -12,13 +12,13 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects-container">
-                <h2 className="projects-header">Projects</h2>
+                <h2 id="projects" className="projects-header">Projects</h2>
                   <Link to="/wanderlust"
                   className="project-1"
                   onClick={(e)=> {
                       this.props.changeHighlight();
                   }}>
-                    <p id="projects" className="wanderlust-header">Wanderlust</p>
+                    <p className="wanderlust-header">Wanderlust</p>
                    <p className="wanderlust-subHeader">Plan your next trip</p>
                    <div className="wanderlust-bkg" role="img" aria-label="warm beach">
                     <div className="skatespot-container">
@@ -51,8 +51,8 @@ class Projects extends Component {
                     </div>
                    </div>
                   </Link>
-                  <h2 className="about-header">About Me</h2>
-                    <p className="intro-sub about-me-text">I want to produce life changing software. I'm passionate about the capabilities it has, and wish to develop products<a id="about"></a> that make a difference in the world. <br /> <br /> The projects I've worked on are centered around some of my favorite hobbies such as playing guitar, skateboarding, and traveling. I love my hobbies and want to do all that I can to improve them!<br/><br/> I've worked on projects individually and as part of a team. I enjoy working with others as hearing their perspectives is a breath of fresh air. I bring a unique view to software and I'm eager to learn as much as I possibly can!</p>
+                  <h2 id="about" className="about-header">About Me</h2>
+                    <p className="intro-sub about-me-text">I want to produce life changing software. I'm passionate about the capabilities it has, and wish to develop products that make a difference in the world. <br /> <br /> The projects I've worked on are centered around some of my favorite hobbies such as playing guitar, skateboarding, and traveling. I love my hobbies and want to do all that I can to improve them!<br/><br/> I've worked on projects individually and as part of a team. I enjoy working with others as hearing their perspectives is a breath of fresh air. I bring a unique view to software and I'm eager to learn as much as I possibly can!</p>
             </div>
         )
     }
