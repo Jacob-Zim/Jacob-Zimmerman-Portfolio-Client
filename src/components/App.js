@@ -120,6 +120,7 @@ class App extends Component {
           highlightedName= {this.state.highlightedName}
           width= {this.state.width}
           />
+          <Route exact path="/projects" component={Projects} />
           <div className="about">
           <div className="landing">
             <p className="intro1">Hey there! I'm a software developer living in Seattle, Washington.</p>
