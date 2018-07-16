@@ -19,14 +19,6 @@ class Project1 extends Component {
         super(props);
     }
 
-    componentDidMount() {
-        this.props.changeHighlight('projects');
-        window.scroll({
-            top: 0,
-            left: 0
-        });
-    }
-
     render() {
         return (
             <div>
@@ -55,7 +47,6 @@ class Project1 extends Component {
                     <p className="conclusion">After all was said and done we had our fully functional app, but we would do things differently if we were to do it again. It would be easier to organize our store with one person solely working on actions rather than a few, as we got mixed up at times with naming and organization. <br/><br/>Another thing we would change is spending a little more time researching as we got started coding pretty quick without having a complete picture of the end goal, causing us to sometimes come back and edit components. <br/><br/> Overall, I think we did a great job with the time we had and worked together effectively. We were able to joke around and have a good time while working diligently, I couldn't have asked for a better team!</p>
                 </div>
                 <div className="links-to-proj">
-                    <Link className="home-link" to="/">Homepage</Link>
                     <Link className="skatespot-link" to="/skatespots">Skatespots</Link>
                     <Link className="staccato-link" to="/staccato">Staccato</Link>
                     <a className="wanderlust-link" href="#top">Wanderlust</a>

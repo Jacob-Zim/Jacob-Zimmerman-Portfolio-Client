@@ -1,6 +1,7 @@
 .proj1-container {
     width: 80%;
     margin: 0 auto;
+    margin-top: 80px;
 }
 
 .proj1-title {
@@ -239,6 +240,16 @@
     }
     .wanderlust-photo-sm {
         display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .footer-holder-proj1 {
+        position: relative;
+        margin-top: 50px;
+    }
+    .links-to-proj {
+        padding-top: 20px;
     }
 }
 

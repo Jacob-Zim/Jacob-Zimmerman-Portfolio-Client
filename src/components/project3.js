@@ -19,14 +19,6 @@ class Project3 extends Component {
         super(props);
     }
 
-    componentDidMount() {
-        this.props.changeHighlight('projects');
-        window.scroll({
-            top: 0,
-            left: 0
-        });
-    }
-
     render() {
         return (
             <div>
@@ -55,7 +47,6 @@ class Project3 extends Component {
                     <p className="conclusion">My partner did a great job on the frontend and we were able to work effectively to get the project up and running. With the experience of putting a non array data structure to use on the backend, I feel I have many more capabilities for a wide variety of applications. Overall, I'm happy with the way Staccato turned out!</p>
                 </div>
                 <div className="links-to-proj">
-                    <Link className="home-link" to="/">Homepage</Link>
                     <Link className="skatespot-link" to="/skatespots">Skatespots</Link>
                     <a className="staccato-link-1" href="#top">Staccato</a>
                     <Link className="wanderlust-link-1" to="/wanderlust">Wanderlust</Link>

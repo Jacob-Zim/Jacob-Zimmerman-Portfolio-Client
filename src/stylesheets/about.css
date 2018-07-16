@@ -21,7 +21,7 @@
 }
 
 .intro1 {
-    margin-top: 10vh;
+    margin-top: 100px;
     text-align: left;
     font-size: 7.5vmin;
     line-height: 8.5vmin;
@@ -72,7 +72,7 @@
 .arrow-holder {
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -30px;
     height: 60px;
     width: 60px;
     margin: 0;
@@ -99,8 +99,17 @@
     margin-bottom: 135px;
 }
 
+.about-holder {
+    padding: 20px;
+    margin-bottom: -70px;
+}
+
 @media only screen and (max-width: 716px) {
+    .arrow-holder {
+        display: none;
+    }
     .intro1 {
+        margin-top: 100px;
         font-size: 7vmin;
         line-height: 7vmin;
     }
@@ -114,52 +123,52 @@
     .about {
         height: 85vmax;
     }
-    .intro1 {
-        margin-top: 7vh;
-        font-size: 6.5vmax;
-        line-height: 6.5vmax;
+     .intro1 {
+        margin-top: 100px;
+        font-size: 7.4vmin;
+        line-height: 7.4vmin;
     }
     .intro2 {
-        font-size: 6.5vmax;
-        line-height: 6.5vmax;
+        font-size: 7.4vmin;
+        line-height: 7.4vmin;
     }
     .intro-sub {
         font-size: 4.8vmax;
         line-height: 5.5vmax;
-    }
+    } 
 }
 
-@media only screen and (max-width: 575px) {
+/* @media only screen and (max-width: 575px) {
     .about {
         height: 85vmax;
     }
     .intro1 {
-        margin-top: 7vh;
-        font-size: 6.5vmin;
-        line-height: 6.5vmin;
+        margin-top: 100px;
+        font-size: 6vmin;
+        line-height: 6vmin;
     }
     .intro2 {
-        font-size: 6.5vmin;
-        line-height: 6.5vmin;
+        font-size: 6vmin;
+        line-height: 6vmin;
     }
     .intro-sub {
-        font-size: 5vmin;
+        font-size: 4.8vmin;
         line-height: 5.5vmin;
     }
-}
+} */
 
 @media only screen and (max-width: 450px) {
     .about {
         height: 85vmax;
     }
     .intro1 {
-        margin-top: 7vh;
-        font-size: 6vmax;
-        line-height: 6vmax;
+        margin-top: 100px;
+        font-size: 8vmin;
+        line-height: 8vmin;
     }
     .intro2 {
-        font-size: 6vmax;
-        line-height: 6vmax;
+        font-size: 8vmin;
+        line-height: 8vmin;
     }
     .intro-sub {
         font-size: 4.7vmax;
@@ -172,17 +181,18 @@
         height: 85vmax;
     }
     .intro1 {
-        margin-top: 7vh;
-        font-size: 8vmin;
-        line-height: 8vmin;
+        margin-top: 100px;
+        font-size: 5.5vmax;
+        line-height: 5.5vmax;
     }
     .intro2 {
-        font-size: 8vmin;
-        line-height: 8vmin;
+        font-size: 5.5vmax;
+        line-height: 5.5vmax;
     }
     .intro-sub {
-        font-size: 7vmin;
-        line-height: 7vmin;
+        margin-top: 15px;
+        font-size: 7.5vmin;
+        line-height: 7.5vmin;
     }
 }
 
@@ -223,6 +233,10 @@
             bottom: 20px;
         }
     }
+}
+
+@media only screen and (max-width: 440px) {
+
 }
 
 @media only screen and (max-width: 575px) {

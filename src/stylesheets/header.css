@@ -6,6 +6,9 @@
     background-color: rgb(29, 29, 29);
     height: 60px;
     font-family: 'Roboto';
+    position: fixed;
+    top: 0;
+    z-index: 50;
 }
 
 .logo {
@@ -13,7 +16,7 @@
     display: inline-block;
     color: white;
     font-size: 26px;
-    margin-top: 17px;
+    margin-top: 19px;
     margin-left: 10%;
     font-family: 'Pacifico';
     transition: .4s ease;
@@ -75,7 +78,7 @@
 
 .highlighted {
     color: rgb(68, 183, 255);
-    padding-bottom: 17px;
+    padding-bottom: 15px;
     background: linear-gradient(rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29),rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(68, 183, 255, 0.1), rgb(68, 183, 255, 0.3), rgb(68, 183, 255, 0.5), rgb(68, 183, 255, 0.7), rgb(68, 183, 255));
 }
 
@@ -123,23 +126,20 @@
 }
 
 @media only screen and (max-width: 750px) {
+
+}
+
+@media only screen and (max-width: 520px) {
     .header-email > a {
         display: none;
     }
-    .projects-link {
-        margin-right: 0px;
+    .about-link {
+        padding-bottom: 13px;
     }
-}
-
-@media only screen and (max-width: 500px) {
     .projects-link {
-        display: none;
+        padding-bottom: 13px;
     }
 }
 
 @media only screen and (max-width: 350px) {
-    .about-link {
-        position: absolute;
-        right: -20px;
-    }
 }

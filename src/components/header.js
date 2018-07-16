@@ -11,20 +11,29 @@ class Header extends Component {
     super(props);
   }
 
+  logo() {
+    if (this.props.width <= 750) {
+      return 'JZ';
+    }
+    return 'Jacob Zimmerman';
+  }
+  
+
     render() {
+      let logo = this.logo();
       return (
-        <header id="top" className="header-bar">
+        <header className="header-bar">
           <div className="logo-container">
-            <Link to="/" className={`logo ${this.props.highlightedName}`} onClick={() => {
-              if (this.props.highlightedName === "highlighted") {
-                window.scroll({
-                  top: 0,
-                  left: 0,
-                  behavior: 'smooth'
-                });
-              }
+            <Link to="/" className={`logo ${this.props.highlightedName}`} 
+              onClick={(e) => {
+                  e.stopPropagation();
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                  });
               this.props.changeHighlight('logo');
-            }}>Jacob Zimmerman</Link>
+            }}>{logo}</Link>
           </div>
           <ul className="links">
               <HashLink smooth to="/#about" className={`about-link ${this.props.highlightedAbout}`}
@@ -34,7 +43,7 @@ class Header extends Component {
               }>about</HashLink>
             <HashLink smooth to="/#projects" className={`projects-link ${this.props.highlightedProjects}`}
               onClick={() => {
-                this.props.changeHighlight('projects');
+                  this.props.changeHighlight('projects');
               }
             }>projects</HashLink>
             <li className="header-email">

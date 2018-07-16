@@ -20,14 +20,6 @@ class Project2 extends Component {
         super(props);
     }
 
-    componentDidMount() {
-        this.props.changeHighlight('projects');
-        window.scroll({
-            top: 0,
-            left: 0
-        });
-    }
-
     render() {
         return (
             <div>
@@ -56,7 +48,6 @@ class Project2 extends Component {
                     <p className="conclusion">I learned a lot during the time I spent on skatespots. I got a taste of higher order components, which would help when creating Wanderlust where I implemented react-google-maps properly. I got a bunch more experience building asynchronous actions with redux. And I learned how to migrate datasets into MongoDB. I'm happy with the way skatespots came out and I have been using it ever since!</p>
                 </div>
                 <div className="links-to-proj">
-                    <Link className="home-link" to="/">Homepage</Link>
                     <a className="skatespot-link-1" href="#top">Skatespots</a>
                     <Link className="staccato-link" to="/staccato">Staccato</Link>
                     <Link to="/wanderlust" className="wanderlust-link-1">Wanderlust</Link>
