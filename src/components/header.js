@@ -38,27 +38,11 @@ class Header extends Component {
           <ul className="links">
               <HashLink smooth to="/#about" className={`about-link ${this.props.highlightedAbout}`}
                 onClick={(e) => {
-                  if (this.props.width <= 425) {
-                    e.stopPropagation();
-                    window.scroll({
-                      top: 0,
-                      left: 0,
-                      behavior: 'smooth'
-                    });
-                  }
                   this.props.changeHighlight('about');
                 }
               }>about</HashLink>
             <HashLink smooth to="/#projects" className={`projects-link ${this.props.highlightedProjects}`}
               onClick={(e) => {
-                if (this.props.width <= 425) {
-                  e.stopPropagation();
-                  window.scroll({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                  });
-                }
                   this.props.changeHighlight('projects');
               }
             }>projects</HashLink>
