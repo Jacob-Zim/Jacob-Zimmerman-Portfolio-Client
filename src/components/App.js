@@ -110,7 +110,7 @@ class App extends Component {
           />
         </Switch>
       </div>;
-    if (this.state.width <= 425) {
+    if (this.state.width <= 750) {
       if (this.state.highlightedName === 'highlighted') {
         page = <div className="app">
         <Header 
